@@ -17,6 +17,7 @@
 		480570002470F20C00673D29 /* udemy_course_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FFF2470F20C00673D29 /* udemy_course_swift_uiUITests.swift */; };
 		4805700E2470F27C00673D29 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805700D2470F27C00673D29 /* Player.swift */; };
 		480570102470F59400673D29 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805700F2470F59400673D29 /* StatText.swift */; };
+		480570122470FB4200673D29 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480570112470FB4200673D29 /* PlayerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		480570012470F20C00673D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4805700D2470F27C00673D29 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../Player Info/Player.swift"; sourceTree = "<group>"; };
 		4805700F2470F59400673D29 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		480570112470FB4200673D29 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				48056FEB2470F20B00673D29 /* Info.plist */,
 				48056FE52470F20B00673D29 /* Preview Content */,
 				4805700F2470F59400673D29 /* StatText.swift */,
+				480570112470FB4200673D29 /* PlayerRow.swift */,
 			);
 			path = "udemy-course-swift-ui";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				48056FE02470F20A00673D29 /* SceneDelegate.swift in Sources */,
 				48056FE22470F20A00673D29 /* ContentView.swift in Sources */,
 				480570102470F59400673D29 /* StatText.swift in Sources */,
+				480570122470FB4200673D29 /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
