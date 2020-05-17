@@ -19,6 +19,8 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .fontWeight(.heavy)
             
+            StatText(statName: "Age", statValue: "31")
+            StatText(statName: "Height", statValue: "6' 3\"")
             Spacer()
             
         }.edgesIgnoringSafeArea(.top)
