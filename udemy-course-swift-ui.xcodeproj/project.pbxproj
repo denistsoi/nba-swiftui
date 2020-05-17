@@ -15,6 +15,7 @@
 		48056FEA2470F20B00673D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48056FE82470F20B00673D29 /* LaunchScreen.storyboard */; };
 		48056FF52470F20C00673D29 /* udemy_course_swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FF42470F20C00673D29 /* udemy_course_swift_uiTests.swift */; };
 		480570002470F20C00673D29 /* udemy_course_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FFF2470F20C00673D29 /* udemy_course_swift_uiUITests.swift */; };
+		4805700E2470F27C00673D29 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805700D2470F27C00673D29 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		48056FFB2470F20C00673D29 /* udemy-course-swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-course-swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48056FFF2470F20C00673D29 /* udemy_course_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_course_swift_uiUITests.swift; sourceTree = "<group>"; };
 		480570012470F20C00673D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4805700D2470F27C00673D29 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../Player Info/Player.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		48056FDC2470F20A00673D29 /* udemy-course-swift-ui */ = {
 			isa = PBXGroup;
 			children = (
+				4805700D2470F27C00673D29 /* Player.swift */,
 				48056FDD2470F20A00673D29 /* AppDelegate.swift */,
 				48056FDF2470F20A00673D29 /* SceneDelegate.swift */,
 				48056FE12470F20A00673D29 /* ContentView.swift */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4805700E2470F27C00673D29 /* Player.swift in Sources */,
 				48056FDE2470F20A00673D29 /* AppDelegate.swift in Sources */,
 				48056FE02470F20A00673D29 /* SceneDelegate.swift in Sources */,
 				48056FE22470F20A00673D29 /* ContentView.swift in Sources */,
