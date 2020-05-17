@@ -18,11 +18,12 @@ struct StatText: View {
             Text(statName + ":")
                 .font(.system(size: 40))
                 .fontWeight(.bold)
-                .padding(.trailing, 30)
+                .padding(.horizontal, 10.0)
             Text(statValue)
                 .font(.system(size: 40))
                 .fontWeight(.light)
                 .padding(.trailing, 30)
+            Spacer()
         }
         
         

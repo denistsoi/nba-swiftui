@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		48056FDE2470F20A00673D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FDD2470F20A00673D29 /* AppDelegate.swift */; };
 		48056FE02470F20A00673D29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FDF2470F20A00673D29 /* SceneDelegate.swift */; };
-		48056FE22470F20A00673D29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FE12470F20A00673D29 /* ContentView.swift */; };
+		48056FE22470F20A00673D29 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48056FE12470F20A00673D29 /* PlayerDetail.swift */; };
 		48056FE42470F20B00673D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48056FE32470F20B00673D29 /* Assets.xcassets */; };
 		48056FE72470F20B00673D29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48056FE62470F20B00673D29 /* Preview Assets.xcassets */; };
 		48056FEA2470F20B00673D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48056FE82470F20B00673D29 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,7 @@
 		4805700E2470F27C00673D29 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805700D2470F27C00673D29 /* Player.swift */; };
 		480570102470F59400673D29 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805700F2470F59400673D29 /* StatText.swift */; };
 		480570122470FB4200673D29 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480570112470FB4200673D29 /* PlayerRow.swift */; };
+		480570142470FE5600673D29 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480570132470FE5600673D29 /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		48056FDA2470F20A00673D29 /* udemy-course-swift-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udemy-course-swift-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48056FDD2470F20A00673D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48056FDF2470F20A00673D29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48056FE12470F20A00673D29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48056FE12470F20A00673D29 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
 		48056FE32470F20B00673D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48056FE62470F20B00673D29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48056FE92470F20B00673D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		4805700D2470F27C00673D29 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../Player Info/Player.swift"; sourceTree = "<group>"; };
 		4805700F2470F59400673D29 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
 		480570112470FB4200673D29 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		480570132470FE5600673D29 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +110,14 @@
 				4805700D2470F27C00673D29 /* Player.swift */,
 				48056FDD2470F20A00673D29 /* AppDelegate.swift */,
 				48056FDF2470F20A00673D29 /* SceneDelegate.swift */,
-				48056FE12470F20A00673D29 /* ContentView.swift */,
+				48056FE12470F20A00673D29 /* PlayerDetail.swift */,
 				48056FE32470F20B00673D29 /* Assets.xcassets */,
 				48056FE82470F20B00673D29 /* LaunchScreen.storyboard */,
 				48056FEB2470F20B00673D29 /* Info.plist */,
 				48056FE52470F20B00673D29 /* Preview Content */,
 				4805700F2470F59400673D29 /* StatText.swift */,
 				480570112470FB4200673D29 /* PlayerRow.swift */,
+				480570132470FE5600673D29 /* PlayerList.swift */,
 			);
 			path = "udemy-course-swift-ui";
 			sourceTree = "<group>";
@@ -279,8 +282,9 @@
 				4805700E2470F27C00673D29 /* Player.swift in Sources */,
 				48056FDE2470F20A00673D29 /* AppDelegate.swift in Sources */,
 				48056FE02470F20A00673D29 /* SceneDelegate.swift in Sources */,
-				48056FE22470F20A00673D29 /* ContentView.swift in Sources */,
+				48056FE22470F20A00673D29 /* PlayerDetail.swift in Sources */,
 				480570102470F59400673D29 /* StatText.swift in Sources */,
+				480570142470FE5600673D29 /* PlayerList.swift in Sources */,
 				480570122470FB4200673D29 /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
